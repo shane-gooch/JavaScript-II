@@ -1,6 +1,14 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+const food = 'nachos';
+
+function bar() {
+  const drink = 'whiskey';
+  console.log(`I would like to order a ${drink} and ${food}`)
+}
+
+bar();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 

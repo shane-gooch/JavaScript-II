@@ -63,21 +63,23 @@ function multiplyNums(x, y, cb) {
 }
 
 console.log(multiplyNums(2, 100, function (num) {
-  return num;
+   return num;
 }));
 
 
-// function contains(item, list, cb) {
-//   // contains checks if an item is present inside of the given array/list.
-//   // Pass true to the callback if it is, otherwise pass false.
-//   if(item == list) {
-//     return true;
-//   } else {
-//     return false;
-//   }
-// }
+function contains(item, list, cb) {
+  // contains checks if an item is present inside of the given array/list.
+  // Pass true to the callback if it is, otherwise pass false.
+  if(list.includes(item)) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
-// contains()
+console.log(contains('yo-yo', items, function (getItem) {
+  return getItem;
+}));
 
 
 /* STRETCH PROBLEM */
